@@ -26,7 +26,7 @@ public class DownloadController
 
         return new StreamedFile(new FileInputStream(tempFile),
             MediaType.forFilename(filename),
-            Instant.now().toEpochMilli(),
+            tempFile.lastModified(),
             tempFile.length())
                    .attach(filename);
     }
