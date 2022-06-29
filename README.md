@@ -1,14 +1,6 @@
-## Micronaut 3.5.2 Documentation
+# Init
 
-- [User Guide](https://docs.micronaut.io/3.5.2/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.5.2/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.5.2/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
-
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
+1. `./gradlew run`
+2. Open Chrome
+3. Paste in address field `http://localhost:8080/download/foo.mp4`
+4. Paste in address field `http://localhost:8080/download/foo.txt`

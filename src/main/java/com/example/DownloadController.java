@@ -17,7 +17,7 @@ import java.util.concurrent.ThreadLocalRandom;
 @Controller("download")
 public class DownloadController
 {
-    private static final int SIZE = 1024 * 1024 * 8; // 8 Mb
+    private static final int SIZE = 0x8FFFFFF; // 128 Mb
 
     @Get(value = "{filename}", produces = {MediaType.MULTIPART_FORM_DATA})
     public StreamedFile download(@QueryValue String filename) throws IOException
